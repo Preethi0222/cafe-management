@@ -1,0 +1,272 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffdd57;
+}
+
+/* Main Section */
+main {
+    padding: 40px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero h2 {
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Image Styles */
+.hero-image, .menu-image, .about-image, .contact-image {
+    width: 100%;
+    max-height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+}
+
+/* Menu List Styles */
+.menu-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.menu-list li {
+    background: rgba(255, 255, 255, 0.7);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.menu-list li:hover {
+    transform: scale(1.05);
+    background: rgba(255, 223, 87, 0.8);
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea {
+    padding: 15px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #0077b6;
+}
+
+/* Button Styles */
+button {
+    margin-top: 15px;
+    padding: 15px;
+    background: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #005f87;
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.home-page {
+    background: url('images/cafe-chain-3-1.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.menu-page {
+    background: url('images/cafe-chain-3-1.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.about-page {
+    background: url('images/cafe-chain-3-1.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.contact-page {
+    background: url('images/cafe-chain-3-1.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Styling for the content box */
+.content-box {
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    border-radius: 15px; /* Rounded corners */
+    padding: 30px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2); /* Drop shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.content-box:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* Optional: Adding heading styles inside the content box */
+.content-box h2 {
+    color: #0077b6; /* Custom color */
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.content-box p {
+    font-size: 18px;
+    color: #333;
+}
+
+.content-box {
+    background-image: url('images/decorative-pattern.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* Use custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling for text inside the menu box */
+.menu-box h2 {
+    font-size: 36px; /* Larger font size for heading */
+    font-weight: 600; /* Semi-bold weight */
+    color: #ff5e5e; /* Custom color for headings */
+    margin-bottom: 20px; /* Space below the heading */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 2px; /* Increase spacing between letters */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Subtle text shadow for depth */
+    background-color: #ccc;
+}
+
+.menu-box p, .menu-box li {
+    font-size: 18px; /* Regular font size for content */
+    font-weight: 400; /* Normal font weight */
+    color: #333; /* Darker color for readability */
+    line-height: 1.6; /* Increased line height for better readability */
+    margin-bottom: 15px; /* Space between paragraphs or list items */
+}
+
+/* Styling for the menu list items */
+.menu-box li {
+    list-style: none; /* Remove default bullet points */
+    padding: 10px 0; /* Padding for each list item */
+    border-bottom: 1px solid #e0e0e0; /* Light border for separation */
+}
+
+/* Special offer or highlighted items */
+.menu-box .highlight {
+    color: #0077b6; /* Custom color for special items */
+    font-weight: 700; /* Bold text for emphasis */
+    background: rgba(0, 119, 182, 0.1); /* Light background highlight */
+    padding: 5px 10px; /* Padding around the highlighted text */
+    border-radius: 5px; /* Rounded corners */
+}
+
